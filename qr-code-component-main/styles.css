@@ -58,7 +58,7 @@ html, body
   background: var(--DarkBlue);
   color: #fff;
   position: absolute;
-  bottom: 0;
+  bottom: 0vh;
   width: 100vw;
   padding: 20px 0px;
 }
