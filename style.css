@@ -4,3 +4,8 @@ html,body
 
 h1
 {text-align: center; height: 100px;background:purple; color: #fff; line-height: 100px;}
+
+p
+{
+  color: #fff;
+}
