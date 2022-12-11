@@ -76,5 +76,6 @@ html, body
 @media screen and (max-width:390px){
   .Q-r{
     max-width: 90%;
+    background: yellow;
   }
 }
