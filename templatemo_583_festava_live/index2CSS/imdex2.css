@@ -1,0 +1,112 @@
+:root
+{
+  --primer-purple:            #2D033B;
+  --second-purple:            #000D6B;
+  --tercer-purple:            #C147E9;
+  --cuarto-purple:            #E5B8F4;
+  --quinto-purple:            #F56EB3;
+  --sexto-purple:             #CB1C8D;
+  --septimo-purple:           #7F167F;
+  --octavo-purple:            #99DDCC;
+
+
+  --h1-font-size:                 74px;
+  --h2-font-size:                 46px;
+  --h3-font-size:                 32px;
+  --h4-font-size:                 28px;
+  --h5-font-size:                 24px;
+  --h6-font-size:                 22px;
+  --p-font-size:                  18px;
+  --btn-font-size:                14px;
+  --copyright-font-size:          16px;
+
+  --border-radius-large:          100px;
+  --border-radius-medium:         20px;
+  --border-radius-small:          10px;
+
+  --font-weight-light:            300;
+  --font-weight-normal:           400;
+  --font-weight-bold:             700;
+
+  --body-font-family:             'Outfit', sans-serif;
+}
+
+body
+{
+  font-family: var(--body-font-family);
+  background: #fff;
+}
+
+.site-header
+{
+  background: var(--primer-purple);
+}
+.site-header .parafo
+{
+  color: var(--cuarto-purple);
+  margin: 15px 5px;
+}
+
+.site-header:hover i,
+.site-header:hover span
+{
+  color: var(--sexto-purple);
+  transition: color 1s;
+}
+
+.navMod
+{
+  background: var(--sexto-purple);
+}
+
+[class="navbar-brand"]
+{
+  color: #fff;
+}
+[class="navbar-brand"]:hover
+{
+  color: #fff;
+}
+
+
+.navMod a[class="nav-link"]
+{
+  color: var(--cuarto-purple);
+}
+.navMod a[class="nav-link"]:hover
+{
+  color: #fff;
+  transition: color .3s;
+}
+
+.e4
+{
+  width: 100%;
+}
+
+
+.custom-btn {
+  background: var(--primer-purple);
+  border-radius: var(--border-radius-large);
+  color: #fff;
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-bold);
+  line-height: normal;
+  transition: all 1s;
+  padding: 10px 20px;
+}
+
+.custom-btn:hover
+{
+  background: var(--octavo-purple);
+  color: var(--primer-purple);
+}
+
+
+.hero-section
+{
+  height: 100vh;
+  background: var(--second-purple);
+}
+
+/* Marcado */
