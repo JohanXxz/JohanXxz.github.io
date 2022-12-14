@@ -35,6 +35,8 @@ body
 {
   font-family: var(--body-font-family);
   background: #fff;
+  position: relative;
+  height: 100%;
 }
 
 .site-header
@@ -45,6 +47,7 @@ body
 {
   color: var(--cuarto-purple);
   margin: 15px 5px;
+  font-weight: var(--font-weight-bold);
 }
 
 .site-header:hover i,
@@ -57,11 +60,16 @@ body
 .navMod
 {
   background: var(--sexto-purple);
+  position: sticky;
+  top: 0;
+  z-index: 150;
 }
 
 [class="navbar-brand"]
 {
   color: #fff;
+  font-size: var(--h5-font-size);
+  font-weight: var(--font-weight-bold);
 }
 [class="navbar-brand"]:hover
 {
@@ -72,6 +80,7 @@ body
 .navMod a[class="nav-link"]
 {
   color: var(--cuarto-purple);
+  font-weight: var(--font-weight-normal);
 }
 .navMod a[class="nav-link"]:hover
 {
@@ -106,7 +115,80 @@ body
 .hero-section
 {
   height: 100vh;
-  background: var(--second-purple);
+  background: transparent;
+  position: relative;
 }
 
-/* Marcado */
+.z
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: transparent;
+  color: rgb(60, 18, 211);
+  z-index: 100;
+  padding-top: 150px;
+}
+
+.z .present
+{
+  font-weight: var(--font-weight-bold);
+  font-size: var(--h1-font-size);
+
+}
+
+.z small
+{
+  color: #fff;
+  font-size: var(--h6-font-size);
+}
+
+
+.video-wrap
+{
+  z-index: -100;
+}  
+
+.video-wrap .custom-video
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.social-share ul
+{
+  list-style-type: none;
+}
+
+.social-icon-link
+{
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.kis
+{
+  padding-top: 100px;
+}
+
+.kis h5,
+.kis .social-share span
+{
+  font-weight: var(--font-weight-bold);
+}
+
+.kissi
+{
+  color: var(--primer-purple);
+  font-weight: var(--font-weight-bold);
+}
+.kis:hover .kissi
+{
+  text-shadow: 2px 2px 10px #fff, -2px -2px 10px #fff;
+}
