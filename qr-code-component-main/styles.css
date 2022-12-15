@@ -57,8 +57,7 @@ html, body
   text-align: center; 
   background: var(--DarkBlue);
   color: #fff;
-  position: absolute;
-  bottom: 0vh;
+  margin-top: 10px;
   width: 100vw;
   padding: 20px 0px;
 }
@@ -76,6 +75,5 @@ html, body
 @media screen and (max-width:390px){
   .Q-r{
     max-width: 90%;
-    background: yellow;
   }
 }
