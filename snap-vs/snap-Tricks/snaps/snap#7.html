@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>snap#7</title>
+  <style>
+    @font-face {
+      font-family: nice;
+      src: url(ANUDRG__.ttf);
+    }
+    body
+    {
+      background: rgb(215, 73, 21);
+      margin: 0;
+      padding: 0;
+    }
+    .loading
+    {
+      height: 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    .loading span
+    {
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      background: red;
+      border-radius: 50%;
+      background: rgb(41, 251, 167);
+      transition: all .5s;
+      animation: animate 2s infinite;
+    }
+    
+    
+    .loading h1
+    {
+      color: #fff;
+      font-family: nice;
+      font-size: 1.4em;
+      padding: 0;
+      margin: 0;
+    }
+    @keyframes animate {
+      0%
+      {
+        border: 1px solid #fff;
+        background: transparent;
+        transform: translateY(0);
+      }
+      50%
+      {
+        border: 1px solid #fff;
+        background: red;
+        transform: translateY(-25px);
+      }
+      75%
+      {
+        background: rgb(81, 81, 208);
+      }
+      100%
+      {
+        border: 1px solid #fff;
+        background: yellow;
+        transform: translateY(0);
+      }
+    }
+    .loading span:nth-child(1)
+    {
+      animation-delay: 0s;
+    }
+    .loading span:nth-child(2)
+    {
+      animation-delay: .1s;
+    }
+    .loading span:nth-child(3)
+    {
+      animation-delay: .2s;
+    }
+    .loading span:nth-child(4)
+    {
+      animation-delay: .3s;
+    }
+    .loading span:nth-child(5)
+    {
+      animation-delay: .4s;
+    }
+    .loading span:nth-child(6)
+    {
+      animation-delay: .5s;
+    }
+    .loading span:nth-child(7)
+    {
+      animation-delay: .6s;
+    }
+  </style>
+</head>
+<body>
+  <div class="container loading">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <h1>loading</h1>
+  </div>
+</body>
+</html>

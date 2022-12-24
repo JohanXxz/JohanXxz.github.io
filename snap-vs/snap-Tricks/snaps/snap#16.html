@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>snap#16</title>
+  <style>
+    body
+    {
+      margin: 0;
+      color: #fff;
+      padding: 0;
+      background: linear-gradient(to right, black , rgb(6, 6, 196));
+      min-height: 100vh;
+    }
+    .container
+    {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 400px;
+      height: 350px;
+      background: rgb(34, 28, 200);
+      outline: 1px solid rgb(13, 225, 23);
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+      transition: .5s;
+      font-family: arial ;
+    }
+    .container::before
+    {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: calc(50%);
+      background: rgb(34, 28, 200);
+      border-right: 1px solid rgb(13, 225, 23);
+      border-bottom: 1px solid rgb(13, 225, 23);
+      width: 30px;
+      height: 30px;
+      transform: rotate(45deg) translateY(24px);
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Practicas con css</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore optio repellat esse tempora possimus fuga aut repudiandae architecto aperiam, excepturi vel nemo, ipsam culpa tempore modi? Quos, dolore magni.</p>
+  </div>
+</body>
+</html>

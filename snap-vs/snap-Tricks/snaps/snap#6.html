@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>snap#6</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    @font-face {
+      font-family: less;
+      src: url(ANUDRG__.ttf);
+    }
+    body
+    {
+      background: rgb(212, 102, 23);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: less , Arial;
+    }
+    .cardBox
+    {
+      margin: 15px;
+      perspective: 500px;
+    }
+    .card
+    {
+      position: relative;
+      width: 150px;
+      background: #fff;
+      border-radius: 5px;
+      height: 150px;
+      transform-style: preserve-3d;
+      transition: .5s ease;
+    }
+    .card1
+    {
+      box-shadow: 0px 20px 30px rgba(250 0 100 /.5);
+      background: #FF80F3;
+    }
+    .card2
+    {
+      box-shadow: 0px 20px 30px rgba(32, 234, 146, 0.734) ;
+      background: #5EB7B7;
+    }
+    .card3
+    {
+      box-shadow: 0px 20px 30px rgba(11, 73, 229, 0.5);
+      background: #381460 ;
+    }
+    .cardFront, .cardBack
+    {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      color: #fff;
+      line-height: 150px;
+      backface-visibility: hidden;
+      text-align: center;
+    }
+    .cardFront
+    {
+      font-size: 90px;
+    }
+    .cardBack
+    {
+      font-size: 20px;
+    }
+    .cardBox:hover .card
+    {
+      transform: rotateY(180deg);
+    }
+    .cardBack
+    {
+      transform: rotateY(180deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="cardBox">
+    <div class="card card1">
+      <div class="cardFront"><i class='bx bxs-bug bx-spin' style='color:#3e0a6b' ></i></div>
+      <div class="cardBack">Error!</div>
+    </div>
+  </div>
+  <div class="cardBox">
+    <div class="card card2">
+      <div class="cardFront"><i class='bx bxs-skull bx-tada' style='color:#22315e' ></i></div>
+      <div class="cardBack">Caution!</div>
+    </div>
+  </div>
+  <div class="cardBox">
+    <div class="card card3">
+      <div class="cardFront"><i class='bx bxs-bot bx-flashing' style='color:#33ce6c' ></i></div>
+      <div class="cardBack">Welcome!</div>
+    </div>
+  </div>
+</body>
+</html>
