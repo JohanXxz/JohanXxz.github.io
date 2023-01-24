@@ -22,11 +22,10 @@ html, body
 .Q-r
 {
   background: var(--White);
-  margin: auto;
+  margin: 150px auto 0px;
   text-align: center;
-  max-width: 300px;
-  margin-top: 150px;
-  border-radius: 15px;
+  max-width: 320px;
+  border-radius: 20px;
   padding: 20px;
   font-family: 'Outfit', sans-serif;
 }
@@ -37,7 +36,7 @@ html, body
   width: 100%;
 }
 
-.parrafo1
+h1
 {
   color: var(--DarkBlue);
   font-weight: 700;
@@ -45,12 +44,11 @@ html, body
   margin: 20px 0px;
 }
 
-.parrafo2
+p
 {
   color: var(--GrayishBlue);
   font-weight: 400;
-  font-size: 15px;
-  padding: 5px;
+  font-size: 1rem;
   margin-bottom: 20px;
 }
 
