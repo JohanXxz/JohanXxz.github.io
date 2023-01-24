@@ -14,7 +14,7 @@
 
 html, body
 {
-  background:var(--GrayishBlue) ;
+  background:var(--LightGray) ;
 }
 
 
@@ -51,25 +51,6 @@ html, body
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 20px;
-}
-.attribution {
-  font-size: 12px;
-  text-align: center; 
-  background: var(--DarkBlue);
-  color: #fff;
-  margin-top: 10px;
-  width: 100vw;
-  padding: 20px 0px;
-}
-    
-.attribution a { 
-  color: var(--LightGray);
-  text-decoration: none;
-}
-
-.attribution a:hover
-{
-  color: var(--White);
 }
 
 @media screen and (max-width:390px){
