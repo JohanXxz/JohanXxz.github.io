@@ -26,7 +26,7 @@ html, body
 {
   background: var(--White);
   text-align: center;
-  max-width: 330px;
+  max-width: 325px;
   border-radius: 20px;
   padding: 20px;
   font-family: 'Outfit', sans-serif;
@@ -34,7 +34,7 @@ html, body
 
 .Q-r img
 {
-  border-radius: inherit;
+  border-radius: 10px;
   width: 100%;
 }
 
@@ -42,7 +42,7 @@ h1
 {
   color: var(--DarkBlue);
   font-weight: 700;
-  font-size: 1.3em;
+  font-size: 1.4em;
   margin: 20px 0px;
 }
 
