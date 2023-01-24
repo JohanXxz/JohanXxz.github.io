@@ -15,6 +15,9 @@
 html, body
 {
   background:var(--LightGray) ;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
 }
 
 
