@@ -173,6 +173,7 @@ body
   text-align: left;
   font-family: 'League Spartan', sans-serif;
   font-size: 14px;
+  font-weight: 400;
 }
 
 @media (max-width:767px)
@@ -235,12 +236,16 @@ body
   .section2 .caja:nth-child(2),
   .section2 .caja:nth-child(3)
   {
-    margin: 10px 0px;
+    margin-bottom: 15px;
     top: 0;
     left: 0;
   }
   .section2 .caja:nth-child(1)
   {
-    margin-top: 50px;
+    margin-top: 60px;
+  }
+  .section2 .caja .imgText p
+  {
+    margin-left: -60px;
   }
 }
