@@ -107,6 +107,74 @@ body
   justify-content: space-between;
   background: var(--LightGrayishMagenta);
 }
+.section2 
+{
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.section2 .caja
+{
+  width: 33%;
+  padding: 30px 25px 15px;
+  border-radius: 10px;
+  position: absolute;
+  background: var(--VeryDarkMagenta);
+}
+.section2 .caja:nth-child(1)
+{
+  top: 0;
+  left: 0;
+}
+.section2 .caja:nth-child(2)
+{
+  top: 15px;
+  left: 320px;
+}
+.section2 .caja:nth-child(3)
+{
+  top: 25px;
+  right: -50px;
+}
+
+.section2 .caja .imgText
+{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  position: relative;
+}
+.section2 .caja .imgText p
+{
+  margin-left: -20px;
+  line-height: 1.4;
+  font-weight: var(--bold);
+  font-family: 'League Spartan', sans-serif;
+}
+.section2 .caja .imgText p span
+{
+  color: var(--SoftPink);
+}
+.section2 .caja .imgText img 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width:  40px;
+  height: 40px;
+}
+.section2 .caja .comentarios
+{
+  text-align: left;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 14px;
+}
+
 @media (max-width:767px)
 {
   .mainContainer
