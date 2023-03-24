@@ -22,7 +22,7 @@ html, body
 
 
 
-.Q-r
+main
 {
   background: var(--White);
   text-align: center;
@@ -32,7 +32,7 @@ html, body
   font-family: 'Outfit', sans-serif;
 }
 
-.Q-r img
+main img
 {
   border-radius: 10px;
   width: 100%;
@@ -55,7 +55,7 @@ p
 }
 
 @media screen and (max-width:400px) {
-  .Q-r {
+  main {
     margin-top: 30px;
   }
   body {
