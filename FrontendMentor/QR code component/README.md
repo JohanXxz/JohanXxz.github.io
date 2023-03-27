@@ -19,8 +19,8 @@
 
 ---
 ## Links
-* Solution URL : [QR component using only HTML and CSS](https://www.frontendmentor.io/solutions/qr-code-component-7TDRoarxyH)
-* Live Site URL: [https://johanxxz.github.io/FrontendMentor/QR%20code%20component/index.html](https://johanxxz.github.io/FrontendMentor/QR%20code%20component/index.html)
+* Solution URL : [CLICK HERE -->](https://www.frontendmentor.io/solutions/qr-code-component-7TDRoarxyH)
+* Live Site URL: [CLICK HERE -->](https://johanxxz.github.io/FrontendMentor/QR%20code%20component/index.html)
 
 ---
 
