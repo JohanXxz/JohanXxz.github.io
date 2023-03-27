@@ -29,6 +29,7 @@ html, body
 }
 .NFT-card .img
 {
+  position: relative;
   width: 100%;
   border: none;
   height: 300px;
@@ -36,9 +37,21 @@ html, body
   background-size: cover;
   background-image: url(images/image-equilibrium.jpg);
 }
-.NFT-card .img:active
+
+.NFT-card .img:active::before
 {
-  background: rgba(0 255 247 / .5);
+  content: url('images/icon-view.svg');
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 10px;
+  left: 0;
+  background: var(--Cyan);
+  opacity: 0.6;
 }
 .NFT-card .title
 {
@@ -124,6 +137,10 @@ hr
   text-decoration: none;
   line-height: 3;
   font-family: 'Outfit', sans-serif;
+}
+.ImgText a:hover
+{
+  cursor: pointer;
 }
 .ImgText a:active
 {
