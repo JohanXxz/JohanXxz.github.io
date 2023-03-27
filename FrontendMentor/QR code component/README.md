@@ -26,17 +26,18 @@
 
 ## Built With 
 
-* <a style="background: #FE6244 ; color: white;  padding: 5px 10px; font-family: cursive;">HTML5</a>
+* HTML5
 
-* <a style="background: #1C82AD; color: white; padding: 5px 16px; font-family: cursive;">CSS3</a>
+* CSS3
 
 ---
 ## Tools Used
 
-* <a style="background: #3AB0FF ; color: white;  padding: 5px 10px; font-family: cursive;">Google</a>
+* Google
 
-* <a style="background: #00337C ; color: white;  padding: 5px 10px; font-family: cursive;">Visual Studio Code</a>
-* <a style="background: #03C988 ; color: white;  padding: 5px 10px; font-family: cursive;">Linux</a>
+* Visual Studio Code
+
+* Linux
 
 ---
 
