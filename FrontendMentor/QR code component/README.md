@@ -62,11 +62,11 @@
 
 ## Let's Connect 👋
 
-* <a href="https://www.linkedin.com/in/ariizz-loopnuds-0336ba257/" style="background: #004 ; color: white;  padding: 5px 10px; font-family: cursive;">LINKEDIN PROFILE</a>
+* <a href="https://www.linkedin.com/in/ariizz-loopnuds-0336ba257/"  target="blank" style="background: #004 ; color: white;  padding: 5px 10px; font-family: cursive;">LINKEDIN PROFILE</a>
 
-* <a href="https://www.frontendmentor.io/profile/JohanXxz" style="background: #838 ; color: white;  padding: 5px 10px; font-family: cursive;">FEM PROFILE</a>
+* <a href="https://www.frontendmentor.io/profile/JohanXxz"  target="blank" style="background: #838 ; color: white;  padding: 5px 10px; font-family: cursive;">FEM PROFILE</a>
 
-* <a href="https://github.com/JohanXxz" style="background: #013 ; color: white;  padding: 5px 10px; font-family: cursive;">GITHUB PROFILE </a>
+* <a href="https://github.com/JohanXxz" target="blank" style="background: #013 ; color: white;  padding: 5px 10px; font-family: cursive;">GITHUB PROFILE </a>
 ---
 
 
