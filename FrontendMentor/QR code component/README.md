@@ -1,4 +1,4 @@
-# <h1 style="text-align:center;"> QR Code Component Solution</h1>
+# <h1 align="center"> QR Code Component Solution</h1>
 
 <p align="center">
   <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">Frontend Mentor Challenge
