@@ -19,24 +19,22 @@
 
 ---
 ## Links
-* Solution URL : [CLICK HERE -->]()
-* Live Site URL: [CLICK HERE -->]()
+* Solution URL : [CLICK HERE -->](https://johanxxz.github.io/FrontendMentor/nft-preview-card-component-main/index.html)
+* Live Site URL: [CLICK HERE -->](https://johanxxz.github.io/FrontendMentor/nft-preview-card-component-main/index.html)
 
 ---
 
 ## Built With 
 
-* <a style="background: #FE6244 ; color: white;  padding: 5px 10px; font-family: cursive;">HTML5</a>
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
 
-* <a style="background: #1C82AD; color: white; padding: 5px 16px; font-family: cursive;">CSS3</a>
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ---
 ## Tools Used
 
-* <a style="background: #3AB0FF ; color: white;  padding: 5px 10px; font-family: cursive;">Google</a>
-
-* <a style="background: #00337C ; color: white;  padding: 5px 10px; font-family: cursive;">Visual Studio Code</a>
-* <a style="background: #03C988 ; color: white;  padding: 5px 10px; font-family: cursive;">Linux</a>
+* ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
+* ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  
 
 ---
 
@@ -51,6 +49,7 @@
 
 * I learned how to use responsive design
 * A lot of minor things
+* Using pseudoelements
 
 ---
 
@@ -62,11 +61,17 @@
 
 ## Let's Connect 👋
 
-* <a href="https://www.linkedin.com/in/ariizz-loopnuds-0336ba257/"  target="blank" style="background: #004 ; color: white;  padding: 5px 10px; font-family: cursive;">LINKEDIN PROFILE</a>
+* <a href="https://www.frontendmentor.io/profile/JohanXxz" target="_blank">
+	<img src="https://img.shields.io/badge/Frontend Mentor-fbfcf8?style=for-the-badge&logo=Frontend-Mentor&logoColor=black" alt="Frontend-Mentor">
+  </a>
 
-* <a href="https://www.frontendmentor.io/profile/JohanXxz"  target="blank" style="background: #838 ; color: white;  padding: 5px 10px; font-family: cursive;">FEM PROFILE</a>
+* <a href="https://www.linkedin.com/in/ariizz-loopnuds-0336ba257/" target="_blank">
+	<img src="https://img.shields.io/badge/linkedin-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white" alt=Linkedin>
+  </a>
 
-* <a href="https://github.com/JohanXxz" target="blank" style="background: #013 ; color: white;  padding: 5px 10px; font-family: cursive;">GITHUB PROFILE </a>
+* <a href="https://github.com/JohanXxz" target="_blank">
+    <img src="https://img.shields.io/badge/Github%20Profile-131313?style=for-the-badge&logo=github&logoColor=white" alt="Personal Website">
+  </a>
 ---
 
 
