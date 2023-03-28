@@ -19,7 +19,7 @@
 
 ---
 ## Links
-* Solution URL : [CLICK HERE -->](https://johanxxz.github.io/FrontendMentor/nft-preview-card-component-main/index.html)
+* Solution URL : [CLICK HERE -->](https://www.frontendmentor.io/solutions/nft-preview-card-using-css3s-grid-and-flex-mH8Vrj4gak)
 * Live Site URL: [CLICK HERE -->](https://johanxxz.github.io/FrontendMentor/nft-preview-card-component-main/index.html)
 
 ---
