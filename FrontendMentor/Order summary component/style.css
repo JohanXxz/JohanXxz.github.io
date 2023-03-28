@@ -7,7 +7,7 @@
   --DarkBlue: hsl(223, 47%, 23%);
 }
 
-body,html
+body
 {
   margin: 0;
   background: var(--PaleBlue);
