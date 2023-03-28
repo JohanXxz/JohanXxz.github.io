@@ -7,74 +7,67 @@
   --DarkBlue: hsl(223, 47%, 23%);
 }
 
-body
+body,html
 {
   margin: 0;
   background: var(--PaleBlue);
   min-height: 100vh;
   display: grid;
+  align-content: center;
   justify-content: center;
-  font-size: 16px;
   font-family: 'Red Hat Display', sans-serif;
 }
 main
 {
-  margin-top: 50px;
   overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
   width: 300px;
   background: #fff;
-  border-radius: 20px;
+  border-radius: 15px;
   text-align: center;
-  height: 490px;
 }
 main img
 {
   width: 100%;
-  height: 28%;
+  height: 30%;
 }
 main h1
 {
   color: var(--DarkBlue);
-  font-size: 20px;
-  margin-top: 30px;
+  font-size: 1.2rem;
+  margin-top: 20px;
   font-weight: 900;
 }
 main .parrafo
 {
-  font-size: 14px;
+  font-size: .8rem;
   font-weight: 500;
   color: var(--DesaturatedBlue);
 }
 main .date
 {
   background: var(--VeryPaleBlue);
-  width: 76%;
-  padding: 15px;
-  padding-bottom: 12px;
-  margin-top: 30px;
+  width: 70%;
+  padding: 15px 15px 5px;
   border-radius: 10px;
-  margin-left: auto;
-  position: relative;
-  margin-right: auto;
+  margin: 20px auto;
   display: flex;
   justify-content: space-between;
 }
 main .date img
 {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background: var(--PaleBlue);
 }
 main .date p
 {
   margin: 0;
-  position: relative;
-  left: -8px;
+  font-size: .8rem;
   color: var(--DarkBlue);
   font-weight: 700;
+  position: relative;
+  left: -15px;
 }
 main .date p span
 {
@@ -83,7 +76,7 @@ main .date p span
 main .date a
 {
   line-height: 3;
-  font-size: 13px;
+  font-size: .8rem;
   color: var(--BrightBlue);
   font-weight: 700;
 }
@@ -93,33 +86,30 @@ main .date a:active
 }
 main button
 {
-  margin-top: 20px;
-  width: 85%;
+  width: 80%;
   background: var(--BrightBlue);
   color: var(--VeryPaleBlue);
   border-radius: 10px;
-  padding: 14px 0px;
-  font-size: 14px;
+  padding: 10px 0px;
+  font-size: .8rem;
   border: none;
   font-weight: 700;
-  box-shadow: 0px 4px 20px 0px rgba(56,41,224,0.75);
+  box-shadow: 0px 5px 15px -3px var(--BrightBlue);
 }
 main button:active
 {
   background: #786cf4;
 }
-main .enlaceFinal
+main .CancelOrden
 {
   color: var(--DesaturatedBlue);
-  margin-top: 25px;
+  margin-top: 20px;
   text-decoration: none;
   display: inline-block;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: .7rem;
+  font-weight: 900;
 }
-main .enlaceFinal:active
+main .CancelOrden:active
 {
   color: var(--DarkBlue)
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
