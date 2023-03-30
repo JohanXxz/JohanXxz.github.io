@@ -17,8 +17,8 @@
 
 
 ## Links
-* Solution URL : [ CLICK -->]()
-* Live Site URL: [ CLICK -->]()
+* Solution URL : [ CLICK -->](https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-LkLB0sbJEw)
+* Live Site URL: [ CLICK -->](https://johanxxz.github.io/FrontendMentor/stats-preview-card-component-main/)
 
 ---
 
@@ -39,7 +39,7 @@
 
 * Used html5 **semantics** for better readability and structure
 * Used **git** And **gitHub** For Project Management
-* Used **mediaQueries** For Responsive Design
+* Used **media Queries** For Responsive Design
 ---
 
 ## What I learned
