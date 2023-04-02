@@ -49,7 +49,6 @@
 
 * I learned how to use responsive design
 * A lot of minor things
-* Using pseudoelements
 * I learned how to use **Object Fit**
 * I learned to use **variables**
 * I learned to use the **Bem Methodology**
