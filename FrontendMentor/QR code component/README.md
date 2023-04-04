@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://johanxxz.github.io/FrontendMentor/QR%20code%20component/index.html">Ver demo</a> -
+  <a href="">Ver demo</a> -
   <a href="https://github.com/JohanXxz/JohanXxz.github.io/issues">Report bug</a> -
   <a href="https://github.com/JohanXxz/JohanXxz.github.io/issues">Request Feature</a>
 </p>
