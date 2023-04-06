@@ -18,34 +18,34 @@ body
   background-color: var(--DarkCyan);
   position: relative;
 }
-.bgTOP , .bgBOTTOM
+.bg_img
 {
   position: absolute;
 }
 .bgTOP
 {
-  top: -100%;
-  left: -30%;
+  top: -600px;
+  left: -400px;
 }
 .bgBOTTOM
 {
-  bottom: -100%;
-  right: -30%;
+  bottom: -600px;
+  right: -400px;
 }
-main
+article
 {
   overflow: hidden;
   border-radius: 10px;
   width: 300px;
   background-color: #fff;
-  z-index: 10;
+  position: relative;
   height: 330px;
 }
-main img:nth-child(1)
+article img:nth-child(1)
 {
   width: 100%;
 }
-main img:nth-child(2)
+article img:nth-child(2)
 {
   border-radius: 50%;
   position: relative;
@@ -100,14 +100,14 @@ main img:nth-child(2)
 
 @media (max-width:450px) 
 {
-  main 
+  article 
   {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     height: 350px;
   }
-  main img:nth-child(1)
+  article img:nth-child(1)
   {
     width: 100%;
   }
