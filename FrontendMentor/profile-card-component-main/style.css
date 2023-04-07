@@ -111,4 +111,8 @@ article img:nth-child(2)
   {
     width: 100%;
   }
+  .bg_img
+  {
+    display: none;
+  }
 }

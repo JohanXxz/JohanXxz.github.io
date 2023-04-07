@@ -1,4 +1,4 @@
-# <h1 align="center">Huddle Landing Page With Single Introductory Section(Solution Using "FLEX")</h1>
+# <h1 align="center">Profile Card Component(Solution)</h1>
 
 <p align="center">
   <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ">Frontend Mentor Challenge
@@ -19,7 +19,7 @@
 
 ---
 ## Links
-* Solution URL : [CLICK HERE -->](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-solution-GgtAcKNx0o)
+* Solution URL : [CLICK HERE -->](https://www.frontendmentor.io/solutions/profile-card-componentsolution-tx44eKymBm)
 * Live Site URL: [CLICK HERE -->](https://johanxxz.github.io/FrontendMentor/profile-card-component-main/)
 
 ---
