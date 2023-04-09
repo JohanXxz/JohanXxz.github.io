@@ -1,4 +1,4 @@
-# <h1 align="center">Testimonials Grid Section (Solution)</h1>
+# <h1 align="center">Testimonials Grid Section (Solution)🤟</h1>
 
 <p align="center">
   <a href=https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7>Frontend Mentor Challenge
@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://johanxxz.github.io/FrontendMentor/profile-card-component-main/">Ver demo</a> -
+  <a href="https://johanxxz.github.io/FrontendMentor/testimonials-grid-section-main/">Ver demo</a> -
   <a href="https://github.com/JohanXxz/JohanXxz.github.io/issues">Report bug</a> -
   <a href="https://github.com/JohanXxz/JohanXxz.github.io/issues">Request Feature</a>
 </p>
@@ -19,8 +19,8 @@
 
 ---
 ## Links
-* Solution URL : [CLICK HERE -->](https://www.frontendmentor.io/solutions/profile-card-componentsolution-tx44eKymBm)
-* Live Site URL: [CLICK HERE -->](https://johanxxz.github.io/FrontendMentor/profile-card-component-main/)
+* Solution URL : [CLICK HERE -->](https://www.frontendmentor.io/solutions/testimonials-grid-section-solution-with-gridflex-La6TcvPJHE)
+* Live Site URL: [CLICK HERE -->](https://johanxxz.github.io/FrontendMentor/testimonials-grid-section-main/)
 
 ---
 
@@ -51,6 +51,7 @@
 * A lot of minor things
 * I learned to use **variables**
 * I learned to use the **Bem Methodology**
+* Properties like **_grid-colum_** and **_grid-template-column_**
 
 ---
 
@@ -60,7 +61,7 @@
 
 ---
 
-## Let's Connect 👋
+## 🤟 Contact Me 🤟
 
 * <a href="https://www.frontendmentor.io/profile/JohanXxz" target="_blank">
 	<img src="https://img.shields.io/badge/Frontend Mentor-fbfcf8?style=for-the-badge&logo=Frontend-Mentor&logoColor=black" alt="Frontend-Mentor">
