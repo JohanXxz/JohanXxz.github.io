@@ -17,20 +17,10 @@ body
   overflow: hidden;
   background-color: var(--DarkCyan);
   position: relative;
-}
-.bg_img
-{
-  position: absolute;
-}
-.bgTOP
-{
-  top: -600px;
-  left: -400px;
-}
-.bgBOTTOM
-{
-  bottom: -600px;
-  right: -400px;
+  background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  background-repeat: no-repeat, no-repeat;
+  background-color: hsl(185deg, 75%, 39%);
 }
 article
 {
@@ -110,9 +100,5 @@ article img:nth-child(2)
   article img:nth-child(1)
   {
     width: 100%;
-  }
-  .bg_img
-  {
-    display: none;
   }
 }
