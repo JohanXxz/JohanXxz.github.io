@@ -1,4 +1,4 @@
-# <h1 align="center">3-column preview card component</h1>
+# <h1 align="center">3-Column Preview Card Component(Solution)👍👍</h1>
 
 <p align="center">
   <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">Frontend Mentor Challenge
