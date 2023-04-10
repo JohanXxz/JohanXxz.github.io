@@ -22,7 +22,7 @@ body
   background-repeat: no-repeat, no-repeat;
   background-color: hsl(185deg, 75%, 39%);
 }
-article
+main
 {
   overflow: hidden;
   border-radius: 10px;
@@ -31,11 +31,11 @@ article
   position: relative;
   height: 330px;
 }
-article img:nth-child(1)
+main img:nth-child(1)
 {
   width: 100%;
 }
-article img:nth-child(2)
+main img:nth-child(2)
 {
   border-radius: 50%;
   position: relative;
@@ -90,14 +90,14 @@ article img:nth-child(2)
 
 @media (max-width:450px) 
 {
-  article 
+  main 
   {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     height: 350px;
   }
-  article img:nth-child(1)
+  main img:nth-child(1)
   {
     width: 100%;
   }
