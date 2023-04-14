@@ -19,7 +19,7 @@ body
 {
   min-height: 100vh;
   display: grid;
-  background-color: var(--Pale__Blue);
+  background-color: var(--White);
   place-content: center;
   font-size: 18px;
   font-family: 'Hanken Grotesk', sans-serif;
@@ -29,6 +29,7 @@ main
   background-color: var(--White);
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 8px 8px 11px -3px var(--Pale__Blue);
   width: 50vw;
   max-width: 550px;
   display: flex;

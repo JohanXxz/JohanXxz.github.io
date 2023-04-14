@@ -19,7 +19,7 @@
 
 ---
 ## Links
-* Solution URL : [CLICK HERE -->](https://www.frontendmentor.io/solutions/profile-card-componentsolution-tx44eKymBm)
+* Solution URL : [CLICK HERE -->](https://www.frontendmentor.io/solutions/results-summary-componentsolution-with-gridflex-UpWH6joMTQ)
 * Live Site URL: [CLICK HERE -->](https://johanxxz.github.io/FrontendMentor/results-summary-component-main/)
 
 ---
@@ -43,7 +43,6 @@
 * Used HTML5 **semantic elements** for better readability and structure
 * Using variables
 * Used **Git** and **GitHub** for project management
-* 
 * Used **media queries** for responsive design
 ---
 
